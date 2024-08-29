@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: #ff009d;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+
+  .dados-pessoais-conteudo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item {
+    margin-bottom: 0;
+  }
+  
+  .item strong {
+    font-weight: bold;
+  }
+  
+  .educacao-conteudo,
+  .experiência-conteudo,
+  .habilidades-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+  
+  .item li {
+    margin-bottom: 0;
+  }
+  
